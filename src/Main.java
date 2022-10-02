@@ -95,7 +95,7 @@ public class Main {
         }
     }
     public static void task8(){
-        int age = 12;
+        int age = 15;
         if (age < 5){
             System.out.println("Ребенок не может кататься на аттракционах");
         } else if (age > 5 && age < 14) {
