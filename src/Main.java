@@ -14,6 +14,8 @@ public class Main {
         task6();
         System.out.println(" Задание 7");
         task7();
+        System.out.println(" Задание 8");
+        task8();
     }
     public static void task1(){
         int age = 15;
@@ -90,6 +92,16 @@ public class Main {
             System.out.println("Если возраст человека равен "+age+" , то ему нужно ходить в университет");
         } else {
             System.out.println("Если возраст человека равен "+age+" , то ему нужно ходить на работу");
+        }
+    }
+    public static void task8(){
+        int age = 12;
+        if (age < 5){
+            System.out.println("Ребенок не может кататься на аттракционах");
+        } else if (age > 5 && age < 14) {
+            System.out.println("Ребенок может кататься только в сопровождении взрослого");
+        } else {
+            System.out.println("Ребенок может кататься самостоятельно");
         }
     }
 }
